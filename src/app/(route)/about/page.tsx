@@ -3,9 +3,19 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className=" h-auto bg-cover flex font-serif flex-col justify-center lg:flex-row items-center p-4 gap-4 py-32">
+    <>
+    
+      <div className="flex h-[60vh]  justify-center items-center font-serif " style={{background: 'url(/images/ab2.jpg)',backgroundSize: "cover", backgroundPosition: "center" }}>
+      
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">About Elite Attire</h1>
+      </div>
+      
+    
+    
+    <div className=" h-auto bg-cover flex font-serif flex-col justify-center lg:flex-row items-center p-4 gap-4 py-32 bg-slate-100">
+      
         
-      <div className="w-full lg:w-1/2 text-center lg:text-left mb-8 px-4 lg:mb-0">
+      <div className="w-full lg:w-1/2 text-center lg:text-left mb-8 px-4 lg:mb-0 ">
         <h1 className="text-3xl md:text-4xl lg:text-5xl mb-6 font-semibold">
           Welcome to Elite Attire
         </h1>
@@ -29,6 +39,7 @@ const About = () => {
         />
       </div>
     </div>
+    </>
     
   );
 };
