@@ -63,7 +63,7 @@ const Navbar = () => {
       </nav>
 
       {isOpen && (
-        <nav className="absolute w-[60%] mt-10 p-4 h-full bg-slate-400 justify-end rounded-lg">
+        <nav className="absolute w-[40%] right-0 top-0 bottom-0 p-4 h-full bg-white justify-end rounded-lg">
           <ul className="mt-10 flex flex-col gap-4  font-serif justify-center">
             <li className="text-primary underline">
               <Link href={"/"}>Home</Link>
